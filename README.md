@@ -7,7 +7,7 @@
 - (멘토진) 결과물 채점: 10월 30일(월) ~ 11월 05일(일)
 
 ### 프로젝트 설명
-- [RFP](https://drive.google.com/file/d/1GHE_wG3ojz3NTNjxusquABm7wfKhjcKR/view?usp=sharing)를 기반으로 팀별로 결과물을 작업하여 제출하시오. 
+- [RFP](https://drive.google.com/file/d/17kE6bzzA5t7zXx-p79Qtuq0wMeuDRlYL/view?usp=sharing)를 기반으로 팀별로 결과물을 작업하여 제출하시오. 
 - 달성 목표: Spring Boot, DB 설계, DB 트랜잭션, RESTful API 설계
   - 여행의 여정 정보를 기록하고 조회하는 Spring Boot 기반 RESTful API 개발
   - 진행한 여행, 여정 정보를 조회, 등록 수정하기 위한 ERD 설계 및 개발
