@@ -24,8 +24,13 @@ public class Itinerary extends BaseTimeEntity {
 
     @Embedded
     private Accommodation accommodation;
+
     @Embedded
     private Transportation transportation;
+
+    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @JoinColumn(name = "trip_id", referencedColumnName = "trip_id")
+    private Trip trip;
 
     @Builder
     private Itinerary(Long id, Residence residence, Accommodation accommodation, Transportation transportation) {
