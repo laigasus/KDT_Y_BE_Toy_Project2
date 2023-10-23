@@ -1,6 +1,5 @@
 package com.example.kdt_y_be_toy_project2.domain.itinerary.entity;
 
-import com.example.kdt_y_be_toy_project2.domain.trip.entity.Trip;
 import com.example.kdt_y_be_toy_project2.global.entity.BaseTimeEntity;
 import jakarta.persistence.*;
 import lombok.AccessLevel;

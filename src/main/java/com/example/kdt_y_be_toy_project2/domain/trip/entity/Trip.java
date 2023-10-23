@@ -8,7 +8,6 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.Comment;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -42,7 +41,5 @@ public class Trip extends BaseTimeEntity {
         this.tripName = tripName;
         this.tripSchedule = tripSchedule;
         this.tripDestinationEnum = tripDestinationEnum;
-        //this.itineraries = itineraries; // 이부분 날려도 되나요
     }
-
 }
