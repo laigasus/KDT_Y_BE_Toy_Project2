@@ -1,6 +1,7 @@
 package com.example.kdt_y_be_toy_project2.domain.trip.entity;
 
 import com.example.kdt_y_be_toy_project2.domain.itinerary.entity.Itinerary;
+import com.example.kdt_y_be_toy_project2.domain.trip.dto.TripRequest;
 import com.example.kdt_y_be_toy_project2.global.entity.BaseTimeEntity;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
@@ -41,5 +42,12 @@ public class Trip extends BaseTimeEntity {
         this.tripName = tripName;
         this.tripSchedule = tripSchedule;
         this.tripDestinationEnum = tripDestinationEnum;
+    }
+
+    // 여행 정보 수정
+    public void modifyInfo(TripRequest tripRequest){
+        this.tripName = tripRequest.getTripName();
+        this.tripSchedule = tripRequest.getTripSchedule();
+        this.tripDestinationEnum = tripRequest.getTripDestinationEnum();
     }
 }
