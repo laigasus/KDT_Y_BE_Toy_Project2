@@ -4,7 +4,7 @@ Content-Type: application/json
 
 [
   {
-    "itineraryName": "부산",
+    "itineraryName": "부산 여정",
     "timeSchedule": {
       "startTime": "2023-10-28T13:05:00",
       "endTime": "2023-10-28T11:15:00"
@@ -30,16 +30,6 @@ Content-Type: application/json
     "activity": [
       {
         "transportEnum": "KTX",
-        "departurePlace": "집",
-        "arrivalPlace": "부산역",
-        "description": "KTX타고 드디어 부산입성!",
-        "activityTimeSchedule": {
-          "startTime": "2023-01-02T14:00:00",
-          "endTime": "2023-01-03T11:00:00"
-        }
-      },
-      {
-        "transportEnum": "CAR",
         "departurePlace": "집",
         "arrivalPlace": "부산역",
         "description": "KTX타고 드디어 부산입성!",
